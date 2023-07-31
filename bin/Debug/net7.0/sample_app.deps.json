@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "sample_app/1.0.0": {
+        "runtime": {
+          "sample_app.dll": {}
+        },
+        "resources": {
+          "en-US/sample_app.resources.dll": {
+            "locale": "en-US"
+          },
+          "es-ES/sample_app.resources.dll": {
+            "locale": "es-ES"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sample_app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

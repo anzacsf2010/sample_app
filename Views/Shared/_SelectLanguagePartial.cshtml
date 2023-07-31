@@ -1,0 +1,15 @@
+﻿<div class="dropdown">
+    <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown">@_localization.Getkey("Language")</button>
+    <ul class="dropdown-menu">
+        <li>
+            <a asp-controller="Home" asp-action="ChangeLanguage" asp-route-culture="en-US" class="dropdown-item">
+                <i class="flag-icon flag-icon-us"></i>English
+            </a>
+        </li>
+        <li>
+            <a asp-controller="Home" asp-action="ChangeLanguage" asp-route-culture="es-ES" class="dropdown-item">
+                <i class="flag-icon flag-icon-sp"></i>Español
+            </a>
+        </li>
+    </ul>
+</div>
